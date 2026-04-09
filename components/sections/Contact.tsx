@@ -49,7 +49,7 @@ export default function Contact() {
     setSubmitted(true)
   }
 
-  const propertyTypes = ['Residential', 'Commercial', 'Mixed-Use', 'Off-Plan']
+  const propertyTypes = ['Residential', 'Commercial']
 
   useGSAP(
     () => {
