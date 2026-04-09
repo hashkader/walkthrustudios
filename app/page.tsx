@@ -6,6 +6,15 @@ import Showcase from '@/components/sections/Showcase'
 import Process from '@/components/sections/Process'
 import Contact from '@/components/sections/Contact'
 import Footer from '@/components/layout/Footer'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Step inside before you arrive. Premium 360° virtual tours for luxury real estate in Johannesburg.',
+  alternates: {
+    canonical: 'https://www.walkthrustudios.co.za',
+  },
+}
 
 export default function Home() {
   return (
